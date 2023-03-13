@@ -42,6 +42,7 @@ export default function Businesscard({ siteconfig, author }) {
             </Link>
           </div>
           {author && <AuthorCard author={author} />}
+       <a target="_blank" rel="noreferrer noopener" href="https://nextcloud.com/sharing#admin@http://92.34.148.68:9000"> Share with me via Nextcloud</a>
           {/* {author.bio && <PortableText value={author.bio} />} */}
           <div className={""}>
             {author?.social?.map(item => (
